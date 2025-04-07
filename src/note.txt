@@ -1,0 +1,58 @@
+hReact is JS library for bulding user interfaces.
+Thrives on using components.
+
+craete a react app (vite)
+create a folder
+
+npm create vite@latest
+., react, react, javascript
+
+npm install
+npm run dev
+
+CLEAN UP
+1. css styles (app.css, index.css)
+2. clear our app.jsx
+APP.JSX (root component)
+Navbar
+Button
+Anchor
+
+create a react component
+function
+1. component must start with uppercase (e.g. Button, Video)
+2. must return one sth (jsx element)
+
+
+const Navbar = () => { 
+return <div>
+h1
+p
+</div>
+}
+
+react fragment <> </>
+
+JSX (html)
+1. every element must be closed <br /> <img src alt /> <hr></hr>
+2. don't use class, use className
+3. label htmlFor
+
+Styling in react
+1. global css (app.css, index.css)
+2. Local css (selecting each components one by one)
+3. inline css style = {{color: 'red', fontFamily: 'sans-serif'}}
+4. external css library (tailwind)
+
+working with Tailwind in REACT
+1. npm install 
+
+
+
+objective 
+1. create a react app using vite
+2. customize your app
+3. create components and nest them appropriately
+4. style your components
+5. working with images in react
+
