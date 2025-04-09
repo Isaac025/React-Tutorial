@@ -139,3 +139,79 @@ return <p key={index}>{name}</p>
 {id, image, price, title}
   }
   use the MystoreSingleProduct component
+
+  PROPS CHILDREN
+  passing jsx element (h1., p, another component) as data points
+  <Product image price title />
+  <Product image price title />
+<p> Black Friday deal
+</Product>
+
+Responding to users event
+
+jsxbtn.addEventListener ('click', () => {
+  //do sth
+})  
+
+react-dom
+
+const handleClick = () => {
+  alert ('welcome user)
+}
+
+<button onClick = {handleClick}></button>
+<button onClick= {() => alert ('welcome user')}>
+
+Conditional Rendering
+1. Multiple returns
+const isUserLogged in = false 
+if (isUserLogged) {
+  return <p>hello world</p>
+}
+
+return <p>Goodbye</p>
+
+2. ternary operator 
+const isSubmitting = true
+isSubmitting ? 'Loading ...' : "Log in"
+isUserLoggedIn ? 'Logout' : Login
+
+3. short circuit evaluation logical operators && ||
+
+const isPasswordCorrect = true
+
+isPasswordCorrect && 'Go and log in'
+
+isPasswordCorrect || 'log out'
+true || true == true 
+
+1. intall react 
+2. customize your app
+3.  create and nest components
+4. style n react
+5. working with images
+6. dynamic Values
+7. props, props destructuring, props CHILDREN
+8. Outputting Lists (map)
+9. responding to users event
+10. Conditional rendering
+
+adding interactivity
+
+1. state management
+a. useState
+
+const [age, setAge] = useState(20)
+setAge(age + 1)
+const [user, setUser] = useState(null)
+const [cart, setCart] = useState([])
+setCart(['powerbank', 'phone'])
+
+
+
+UI(styling) data
+
+const myName = 'Ade'
+data would have to change
+
+//
