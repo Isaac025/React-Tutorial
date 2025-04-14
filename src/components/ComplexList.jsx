@@ -54,7 +54,10 @@ const ComplexList = () => {
         {staff.map((member) => {
           const { id, image, name, role } = member;
           return (
-            <div key={id} className="w-[320px] bg-white p-2.5 rounded-md">
+            <div
+              key={id}
+              className="w-[320px] bg-white p-2.5 rounded-md h-[350px]"
+            >
               <img
                 src={image}
                 alt={name}

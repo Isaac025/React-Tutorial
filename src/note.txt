@@ -144,7 +144,7 @@ return <p key={index}>{name}</p>
   passing jsx element (h1., p, another component) as data points
   <Product image price title />
   <Product image price title />
-<p> Black Friday deal
+<p> Black Friday deal </p>
 </Product>
 
 Responding to users event
@@ -215,3 +215,7 @@ const myName = 'Ade'
 data would have to change
 
 //
+UseEffect
+it allow us to run functions on the inittail loading of the page 
+and on every re render
+

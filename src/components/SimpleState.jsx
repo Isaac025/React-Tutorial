@@ -33,23 +33,22 @@ vitae ipsum! Quis molestias corporis corrupti a cum debitis fuga ut
   return (
     <div className="py-10 ">
       <div className="text-center">
+        <h1 className="text-3xl font-bold">UseState 1</h1>
+        <p>My name is {name}</p>
+        <button className="mybtn" onClick={handleNameChange}>
+          Change Name
+        </button>
 
-      <h1 className="text-3xl font-bold">UseState 1</h1>
-      <p>My name is {name}</p>
-      <button className="mybtn" onClick={handleNameChange}>
-        Change Name
-      </button>
-
-      <h1 className="text-4xl my-3.5">{num}</h1>
-      <button className="mybtn" onClick={handleIncrease}>
-        Increase
-      </button>
-      <button className="mybtn mx-3" onClick={() => setNum(0)}>
-        Reset
-      </button>
-      <button className="mybtn" onClick={handleDecrease}>
-        Decrease
-      </button>
+        <h1 className="text-4xl my-3.5">{num}</h1>
+        <button className="mybtn" onClick={handleIncrease}>
+          Increase
+        </button>
+        <button className="mybtn mx-3" onClick={() => setNum(0)}>
+          Reset
+        </button>
+        <button className="mybtn" onClick={handleDecrease}>
+          Decrease
+        </button>
       </div>
 
       <div className="max-w-[600px] mx-auto p-3 shadow-lg">

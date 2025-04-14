@@ -15,6 +15,11 @@ import EventHandling from "./components/EventHandling";
 import ConditionalRendering from "./components/ConditionalRendering";
 import SimpleState from "./components/SimpleState";
 import User from "./components/User";
+import ComplexState from "./components/ComplexState";
+import ComplexStateArray from "./components/ComplexStateArray";
+import ExampleArray from "./components/ExampleArray";
+import SimpleEffect from "./components/SimpleEffect";
+import FetchData from "./components/FetchData";
 
 function App() {
   return (
@@ -26,7 +31,7 @@ function App() {
       <Footer /> */}
       {/* <Dynamic /> */}
       {/* <Props /> */}
-      {/* <JumiaClone/> */}
+      {/* <JumiaClone /> */}
       {/* <SimpleList /> */}
       {/* <ComplexList /> */}
       {/* <Mystore /> */}
@@ -34,8 +39,13 @@ function App() {
       {/* <PropsChildren /> */}
       {/* <EventHandling /> */}
       {/* <ConditionalRendering /> */}
-      <SimpleState />
-      <User />
+      {/* <SimpleState /> */}
+      {/* <User /> */}
+      {/* <ComplexState /> */}
+      {/* <ComplexStateArray /> */}
+      {/* <ExampleArray /> */}
+      {/* <SimpleEffect /> */}
+      <FetchData />
     </>
   );
 }

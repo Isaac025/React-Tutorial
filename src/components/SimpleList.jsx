@@ -6,6 +6,14 @@ import React from "react";
 const SimpleList = () => {
   const customers = ["Ade", "John", "Jane", "Peter"];
   const users = ["Bolu", "Peter", "Jack", "Paul", "Ridwan"];
+  const houses = [
+    "Bungalow",
+    "Duplex",
+    "Storey",
+    "Huts",
+    "Glasshouse",
+    "farmhouse",
+  ];
   return (
     <div>
       <h1>Outputting List in React</h1>
@@ -21,6 +29,11 @@ const SimpleList = () => {
               {user}
             </h1>
           );
+        })}
+      </div>
+      <div>
+        {houses.map((house, index) => {
+          return <h3 key={index}>{house}</h3>;
         })}
       </div>
     </div>
