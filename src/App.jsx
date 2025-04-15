@@ -20,6 +20,10 @@ import ComplexStateArray from "./components/ComplexStateArray";
 import ExampleArray from "./components/ExampleArray";
 import SimpleEffect from "./components/SimpleEffect";
 import FetchData from "./components/FetchData";
+import FetchUsers from "./components/FetchUsers";
+import Getauthors from "./components/Getauthors";
+import Recipe from "./components/Recipe";
+import SimpleForm from "./components/SimpleForm";
 
 function App() {
   return (
@@ -45,7 +49,11 @@ function App() {
       {/* <ComplexStateArray /> */}
       {/* <ExampleArray /> */}
       {/* <SimpleEffect /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      {/* <FetchUsers /> */}
+      {/* <Getauthors /> */}
+      {/* <Recipe /> */}
+      <SimpleForm />
     </>
   );
 }

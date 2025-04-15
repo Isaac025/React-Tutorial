@@ -219,3 +219,9 @@ UseEffect
 it allow us to run functions on the inittail loading of the page 
 and on every re render
 
+custom hook
+
+exort useFetch = (api) => {
+  const [data, seData] = useState([])
+
+}
