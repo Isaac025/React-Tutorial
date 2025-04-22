@@ -225,3 +225,24 @@ exort useFetch = (api) => {
   const [data, seData] = useState([])
 
 }
+
+controlled- inputs
+
+<swiper>
+testimonial.map((t) => {
+
+})
+ <swiperslide>1</swiperslide>
+ <swiperslide>2</swiperslide>
+ <swiperslide>3</swiperslide>
+ <swiperslide>4</swiperslide>
+
+ tailwind 
+ daisyui
+ react-icons
+ react-loader
+
+ axios - data fetching
+ react-hook-forms
+ yup
+
