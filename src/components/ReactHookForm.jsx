@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import { useState } from "react";
 
 //useForm - register, handleSubmit
 //yup, zod
@@ -22,10 +23,20 @@ const ReactHookForm = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm({ resolver: yupResolver(validationSchema) });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleFormSubmit = (data) => {
-    console.log(data);
+    setIsSubmitting(true);
+
+    setTimeout(() => {
+      console.log(data);
+      //after doing what you are meant to do
+      setIsSubmitting(false);
+      reset();
+    }, 5000);
   };
 
   return (
@@ -80,7 +91,7 @@ const ReactHookForm = () => {
         </p>
 
         <button type="submit" className="btn btn-accent w-full mt-2.5">
-          Submit
+          {isSubmitting ? "Submitting..." : "Submit"}
         </button>
       </form>
     </div>
