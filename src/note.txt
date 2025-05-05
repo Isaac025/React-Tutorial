@@ -281,5 +281,9 @@ Navlink - special version of <link>
 automatically applies an active class - styling
 isActive
 
-context api 
 form
+context api 
+
+useRef
+
+react optimization

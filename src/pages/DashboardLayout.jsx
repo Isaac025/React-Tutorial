@@ -37,7 +37,7 @@ const DashboardLayout = () => {
           </nav>
         </div>
         {/* Outlet */}
-        <div className="w-[80%">
+        <div className="w-[80%]">
           <Outlet />
         </div>
       </section>
