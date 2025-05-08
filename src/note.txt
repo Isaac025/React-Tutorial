@@ -286,4 +286,33 @@ context api
 
 useRef
 
+GLobal state
+context api
+
+store (val1, val2) c1, c2, c3
+1. create your store
+2. use the value provided by the store
+context that was created AppContext
+useContext from react
+
+prop drilling
+
+const AppContext = createContext();
+
+
 react optimization
+1. code splitting (50mb)- speed
+
+Suspense lazy
+import Home from '../pa'
+import Home from lazy ()
+<Suspense fallback = {logo}>
+<Home />
+</Suspense>
+
+animation - 
+
+animate on scroll - nstall
+animate css
+
+react-typed
